@@ -1,4 +1,4 @@
-package com.java.stschool.assignment1;
+package com.java.stschool.assignment.assignment1;
 
 import java.util.HashSet;
 import java.util.Iterator;

@@ -1,4 +1,4 @@
-package com.java.stschool.assignment1;
+package com.java.stschool.assignment.assignment1;
 
 import java.util.Objects;
 
@@ -7,7 +7,7 @@ public class Product {
    private String name;
    private double maxRetailPrice;
    private float  discountPercentage;
-    public Product() {
+    public Product(String s, String lenovoLaptop, double v, double v1) {
     }
 
     public String getId() {

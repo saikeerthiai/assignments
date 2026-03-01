@@ -1,4 +1,4 @@
-package com.java.stschool.assignment1;
+package com.java.stschool.assignment.assignment1;
 
 import java.util.HashSet;
 import java.util.Iterator;
@@ -18,7 +18,7 @@ public class ProductService {
         for(String productData : productsData){
             //System.out.println(productData);
             String[] split = productData.split(",");
-            Product product = new Product();
+            Product product = new Product("p-101", "Lenovo Laptop", 58999.00, 10.5);
             product.setId(split[0]);
             product.setName(split[1]);
             product.setMaxRetailPrice(Double.parseDouble(split[2]));
